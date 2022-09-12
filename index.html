@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let user = prompt("who are you");
+    if (user === "admin") {
+        let pass = prompt("passworld");
+        if (pass === "theMaster"){
+            alert("Hello");
+        } else if (pass === null ) {
+            alert("cancel");
+        } else {
+            alert("wrong passworld");
+        }
+    } else if ( user === null ){
+        alert("cancel");
+    } else {
+        alert("i don't know you");
+    }
+</script>
+</body>
+</html>
